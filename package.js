@@ -1,18 +1,14 @@
 Package.describe({
   name: 'aramix:introjs',
-  version: '2.1.1',
-  // Brief, one-line summary of the package.
+  version: '2.2.0',
   summary: 'Meteor package for intro.js with improvements',
-  // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/aramix/meteor-intro.js.git',
-  // By default, Meteor will default to using README.md for documentation.
-  // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.add_files('./lib/intro.js/minified/intro.min.js', 'client');
-  api.add_files('./lib/intro.js/minified/introjs.min.css', 'client');
+  api.add_files('./lib/intro.js/intro.js', 'client');
+  api.add_files('./lib/intro.js/introjs.css', 'client');
   api.add_files('./lib/main.js', 'client');
   api.export('introJs', 'client');
 });
