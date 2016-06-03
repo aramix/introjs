@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'aramix:intro.js',
+  name: 'aramix:introjs',
   version: '1.0.0',
   // Brief, one-line summary of the package.
   summary: 'meteor package for intro.js with improvements',
@@ -18,6 +18,6 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use(['aramix:intro.js', 'tinytest'], ['client']);
+  api.use(['aramix:introjs', 'tinytest'], ['client']);
   api.mainModule('tests.js', ['client']);
 });
