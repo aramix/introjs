@@ -2,7 +2,7 @@ Package.describe({
   name: 'aramix:introjs',
   version: '1.0.0',
   // Brief, one-line summary of the package.
-  summary: 'meteor package for intro.js with improvements',
+  summary: 'Meteor package for intro.js with improvements',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/aramix/meteor-intro.js.git',
   // By default, Meteor will default to using README.md for documentation.
