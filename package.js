@@ -19,5 +19,5 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use(['aramix:introjs', 'tinytest'], ['client']);
-  api.mainModule('tests.js', ['client']);
+  api.mainModule('test.js', ['client']);
 });
