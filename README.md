@@ -9,6 +9,6 @@ meteor add aramix:introjs
 Basic usage
 -------------
 
-This package expose `introJs` in the client.
+This package exposes `introJs` in the client.
 
 See the official [introjs](https://github.com/usablica/intro.js) repo.
