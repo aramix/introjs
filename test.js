@@ -1,11 +1,5 @@
-// Import Tinytest from the tinytest Meteor package.
-import { Tinytest } from "meteor/tinytest";
-
-// Import and rename a variable exported by intro.js1.js.
-import { name as packageName } from "meteor/intro.js1";
-
-// Write your tests here!
-// Here is an example.
-Tinytest.add('intro.js1 - example', function (test) {
-  test.equal(packageName, "intro.js1");
+Tinytest.add('IntroJs can be initalized', function (test) {
+  test.isNotNull(introJs, 'introjs should exist');
+  test.isTrue(typeof(introJs) === "function", 'introjs should be a function');
+  test.isTrue(typeof(introJs().start) === "function", 'start should be a function');
 });
