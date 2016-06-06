@@ -1,7 +1,7 @@
 Package.describe({
   name: 'aramix:introjs',
   version: '2.2.4',
-  summary: 'Meteor package for intro.js with improvements',
+  summary: 'Meteor package for intro.js with improvements and new features',
   git: 'https://github.com/aramix/meteor-intro.js.git',
   documentation: 'README.md'
 });
